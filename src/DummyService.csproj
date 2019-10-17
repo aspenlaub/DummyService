@@ -21,6 +21,7 @@
     <None Remove="Test\**" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
     <PackageReference Include="System.ServiceProcess.ServiceController" Version="4.6.0" />
   </ItemGroup>
   <ItemGroup>
