@@ -17,6 +17,7 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/aspenlaub/DummyService.git</RepositoryUrl>
     <RepositoryBranch>master</RepositoryBranch>
+    <PackageId>DummyService</PackageId>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
