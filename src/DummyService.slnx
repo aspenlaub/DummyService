@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DummyService.csproj" />
+  <Project Path="Test/DummyService.Test.csproj" />
+</Solution>
