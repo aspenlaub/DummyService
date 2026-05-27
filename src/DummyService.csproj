@@ -3,7 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net10.0-windows</TargetFramework>
-    <StartupObject>Aspenlaub.Net.GitHub.CSharp.DummyService.Program</StartupObject>
+    <RestoreEnablePackagePruning>false</RestoreEnablePackagePruning>
+    <AssetTargetFallback>net10.0</AssetTargetFallback>
+<StartupObject>Aspenlaub.Net.GitHub.CSharp.DummyService.Program</StartupObject>
     <AssemblyName>Aspenlaub.Net.GitHub.CSharp.DummyService</AssemblyName>
     <RootNamespace>Aspenlaub.Net.GitHub.CSharp.DummyService</RootNamespace>
     <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
