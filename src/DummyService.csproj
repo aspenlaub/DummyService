@@ -5,7 +5,7 @@
     <TargetFramework>net10.0-windows</TargetFramework>
     <RestoreEnablePackagePruning>false</RestoreEnablePackagePruning>
     <AssetTargetFallback>net10.0</AssetTargetFallback>
-<StartupObject>Aspenlaub.Net.GitHub.CSharp.DummyService.Program</StartupObject>
+    <StartupObject>Aspenlaub.Net.GitHub.CSharp.DummyService.Program</StartupObject>
     <AssemblyName>Aspenlaub.Net.GitHub.CSharp.DummyService</AssemblyName>
     <RootNamespace>Aspenlaub.Net.GitHub.CSharp.DummyService</RootNamespace>
     <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
@@ -20,6 +20,7 @@
     <RepositoryUrl>https://github.com/aspenlaub/DummyService.git</RepositoryUrl>
     <RepositoryBranch>master</RepositoryBranch>
     <PackageId>DummyService</PackageId>
+    <MSBuildEnableWorkloadResolver>false</MSBuildEnableWorkloadResolver>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
