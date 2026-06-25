@@ -32,7 +32,7 @@
     <None Remove="Test\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Skladasu" Version="2.0.2523.662" />
+    <PackageReference Include="Skladasu" Version="2.0.2528.988" />
     <PackageReference Include="System.ServiceProcess.ServiceController" Version="10.0.3" />
   </ItemGroup>
   <ItemGroup>
